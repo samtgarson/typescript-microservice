@@ -2,25 +2,11 @@
   "name": "server",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "api/index.ts",
   "author": "",
   "license": "MIT",
-  "scripts": {
-    "dev": "run-p dev:*",
-    "dev:micro": "micro-dev build/index.js",
-    "dev:tsc": "tsc --watch index.ts --outDir build",
-    "build": "tsc index.ts --outDir build",
-    "start": "micro build/index.js"
-  },
-  "dependencies": {
-    "googleapis": "^64.0.0",
-    "micro": "v9.3.4"
-  },
   "devDependencies": {
-    "@types/micro": "^7.3.3",
     "@types/node": "^14.14.7",
-    "micro-dev": "^3.0.0",
-    "npm-run-all": "^4.1.5",
-    "typescript": "^4.0.5"
+    "@vercel/node": "^1.9.0"
   }
 }

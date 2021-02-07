@@ -15,7 +15,7 @@
     "typeRoots": ["node_modules/@types", "types/stubs"],
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./*"]
+      "@/*": ["./*"]
     }
   },
   "exclude": [
